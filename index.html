@@ -18,6 +18,99 @@
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
       crossorigin="anonymous"
     ></script>
+
+    <style>
+      
+    </style>
   </head>
-  <body></body>
+  <body>
+    <!-- NavBar -->
+    <nav
+      class="navbar navbar-lg navbar-expand-md navbar-dark fixed-top bg-dark fs-5 p-3"
+    >
+      <div class="container-fluid">
+        <a
+          class="navbar-brand fw-bold fs-4 text-dark ms-md-5 px-md-3 btn-warning rounded"
+          href="#"
+        >
+          VPN
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarCollapse"
+          aria-controls="navbarCollapse"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav ms-auto mb-2 mb-md-0">
+            <li class="nav-item mx-2">
+              <a class="nav-link text-warning" aria-current="page" href="#home">
+                Home
+              </a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link text-warning" aria-current="page" href="#about-us">
+                About Us
+              </a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link text-warning" aria-current="page" href="#features">
+                Features
+              </a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link text-warning" aria-current="page" href="#gallery">
+                Gallery
+              </a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link text-warning" aria-current="page" href="#testimonials-reviews">
+                Testimonials/Reviews
+              </a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link text-warning" aria-current="page" href="#contact-us">
+                Contact Us
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Home section -->
+    <section id="home"></section>
+
+    <!-- About Us section -->
+    <section id="about-us"></section>
+
+    <!-- Features section -->
+    <section id="features"></section>
+
+    <!-- Gallery section -->
+    <section id="gallery"></section>
+
+    <!-- Testimonials/Reviews section -->
+    <section id="testimonials-reviews"></section>
+
+    <!-- Contact Us section -->
+    <section id="contact-us"></section>
+
+    <!-- script -->
+    <script>
+      const activateLink = () => {
+        document.querySelectorAll(".nav-link").classList.remove("text-warning");
+        document.querySelector(this).classList.add("text-warning");
+      };
+
+      document.addEventListener("click", () => {
+        document.querySelector()
+      });
+    </script>
+  </body>
 </html>
